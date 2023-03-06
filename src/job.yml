@@ -6,7 +6,7 @@ command: >-
 inputs:
   training_data: 
     type: uri_folder 
-    path: azureml://subscriptions/81daeafb-94c8-4e24-9af5-e6548e9e9105/resourcegroups/rg-mlops-learning/workspaces/mlw-mlops-learning/datastores/workspaceblobstore/paths/LocalUpload/781b3928843c34bc9f1ec7ffdde11e35/experimentation/
+    path: azureml:diabetes-dev-folder:2 
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: azureml:caalspi1
